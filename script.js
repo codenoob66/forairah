@@ -22,7 +22,7 @@ loginBtn.addEventListener("click", () => {
   }
 
   // Example validation: Change '2000-01-01' to the actual birthdate
-  if (selectedDate === "1996-12-14") {
+  if (selectedDate === "1996-12-14" || selectedDate === "1997-12-14") {
     location.href = "iloveyou.html";
     // You can redirect here: window.location.href = 'home.html';
   } else {

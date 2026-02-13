@@ -139,6 +139,28 @@ button {
   }
 }
 
+#image-container img {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@media (max-width: 430px) {
+  #image-container img {
+    max-width: 150px !important;
+    margin: 5px !important;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 h1,
 p {
   font-family: "Great Vibes", cursive;
